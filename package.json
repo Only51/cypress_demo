@@ -1,0 +1,31 @@
+{
+  "name": "cypress_demo",
+  "version": "1.0.0",
+  "description": "Demo Cypress",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Only51?tab=repositories"
+  },
+  "author": "Dat Pham",
+  "license": "ISC",
+  "scripts": {
+    "test": "cypress run --spec \"**/*.feature\"",
+    "test:all": "cypress run --spec \"**/*.features\""
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "testing"
+  ],
+  "dependencies": {
+    "cypress": "^4.9.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "devDependencies": {
+    "cypress-xpath": "^2.0.0"
+  }
+}
