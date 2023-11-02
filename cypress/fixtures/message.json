@@ -1,0 +1,10 @@
+{
+    "msgSuccess": "Your inquiry has been submitted successfully!",
+    "msgErrorEmail": "'email' is required",
+    "msgErrorEmailinvalid": "'email' is not a valid email",
+    "msgErrorLname": "'lastName' is required",
+    "msgErrorFname": "'firstName' is required",
+    "msgErrorInfoSource": "'infoSource' is required",
+    "msgErrorServices": "'servicesOfInterest' is required",
+    "msgErrorAssociation": "'typeOfAssociation' is required"
+}
