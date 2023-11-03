@@ -1,4 +1,12 @@
 {
-    "ignoreTestFiles": "*.js",
-    "testFiles": "**/*.{feature,features}"
-  }
+  "ignoreTestFiles": "*.js",
+  "testFiles": "**/*.{feature,features}",
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/results",
+    "overwrite": false,
+    "html": true,
+    "json": true
+  },
+  "baseUrl": "https://raksul.github.io"
+}

@@ -1,7 +1,7 @@
 import { Given, When, Then, And } from 'cypress-cucumber-preprocessor/steps';
 import survey from "../../Pages/SurveyPage";
 
-const url = 'https://raksul.github.io/recruit-qa-engineer-work-sample/'
+const url = '/recruit-qa-engineer-work-sample'
 Given('I am on the survey page', () => {
   cy.visit(url)
 })
